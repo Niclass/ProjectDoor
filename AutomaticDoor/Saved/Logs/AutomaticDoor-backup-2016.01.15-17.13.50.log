@@ -1,0 +1,965 @@
+﻿[2016.01.15-14.59.10:198][  0]Log file open, 01/15/16 15:59:10
+[2016.01.15-14.59.10:198][  0]LogInit:Display: Running engine for game: AutomaticDoor
+[2016.01.15-14.59.10:198][  0]LogInit:Display: RandInit(942317910) SRandInit(942317910).
+[2016.01.15-14.59.10:198][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.15-14.59.10:198][  0]LogStats: Stats thread started at 0.073737
+[2016.01.15-14.59.10:198][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.15-14.59.10:198][  0]LogInit: API Version: 2672455
+[2016.01.15-14.59.10:198][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.15-14.59.10:198][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.15-14.59.10:198][  0]LogInit: Build Configuration: Development
+[2016.01.15-14.59.10:198][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.15-14.59.10:198][  0]LogInit: Command line:  
+[2016.01.15-14.59.10:198][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.15-14.59.10:198][  0]LogInit: Rocket: 1
+[2016.01.15-14.59.10:206][  0]LogInit: Using libcurl 7.41.0
+[2016.01.15-14.59.10:206][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.15-14.59.10:206][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.15-14.59.10:206][  0]LogInit:  - other features:
+[2016.01.15-14.59.10:206][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.15-14.59.10:206][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.15-14.59.10:206][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.15-14.59.10:206][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.15-14.59.10:206][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.15-14.59.10:206][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.15-14.59.10:206][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.15-14.59.10:206][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.15-14.59.10:206][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.15-14.59.10:206][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.15-14.59.10:213][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.15-14.59.10:219][  0]LogInit: Object subsystem initialized
+[2016.01.15-14.59.10:220][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.15-14.59.10:220][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.15-14.59.10:227][  0]LogInit: Computer: FIDUS
+[2016.01.15-14.59.10:227][  0]LogInit: User: Niclas
+[2016.01.15-14.59.10:227][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.15-14.59.10:227][  0]LogInit: High frequency timer resolution =3.386479 MHz
+[2016.01.15-14.59.10:227][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.15-14.59.10:227][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.15-14.59.10:227][  0]LogMemory: Process Physical Memory: 54.55 MB used, 54.55 MB peak
+[2016.01.15-14.59.10:227][  0]LogMemory: Process Virtual Memory: 55.28 MB used, 55.28 MB peak
+[2016.01.15-14.59.10:227][  0]LogMemory: Physical Memory: 4137.77 MB used, 16332.28 MB total
+[2016.01.15-14.59.10:227][  0]LogMemory: Virtual Memory: 368.15 MB used, 134217728.00 MB total
+[2016.01.15-14.59.10:317][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.15-14.59.10:967][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2016.01.15-14.59.10:967][  0]LogD3D11RHI: Adapter has 2030MB of dedicated video memory, 0MB of dedicated system memory, and 8166MB of shared system memory, 1 output[s]
+[2016.01.15-14.59.10:968][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.15-14.59.10:968][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8166MB of shared system memory, 0 output[s]
+[2016.01.15-14.59.10:968][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.15-14.59.10:971][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.15-14.59.10:971][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.15-14.59.10:976][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.01.15-14.59.10:985][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Intermediate/Shaders/WorkingDirectory/7852/).
+[2016.01.15-14.59.10:986][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Intermediate/Shaders/tmp/CFDF1D5F4B66AA475724AB9061D19874/'.
+[2016.01.15-14.59.10:986][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.15-14.59.11:919][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.15-14.59.11:924][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.15-14.59.11:930][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.15-14.59.11:935][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.15-14.59.11:941][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.15-14.59.11:944][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.15-14.59.11:947][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.15-14.59.11:950][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.15-14.59.11:954][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.15-14.59.11:957][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.15-14.59.11:960][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.15-14.59.11:964][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.15-14.59.11:964][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.15-14.59.11:981][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.15-14.59.11:984][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.15-14.59.11:988][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.15-14.59.11:991][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.15-14.59.11:991][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.15-14.59.12:080][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.15-14.59.12:117][  0]LogDerivedDataCache: Loaded boot cache 0.04s 45MB C:/Users/Niclas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.15-14.59.12:117][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Niclas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.15-14.59.12:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.15-14.59.12:117][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.15-14.59.12:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.15-14.59.12:117][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.15-14.59.12:242][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.15-14.59.12:253][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Niclas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.15-14.59.12:442][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.15-14.59.12:444][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.15-14.59.12:550][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.15-14.59.12:550][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.15-14.59.12:758][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.15-14.59.13:380][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.15-14.59.13:446][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-14.59.13:552][  0]LogLinker:Warning: Asset '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-14.59.13:553][  0]LogLinker:Warning: Asset '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-14.59.13:554][  0]LogLinker:Warning: Asset '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-14.59.13:555][  0]LogLinker:Warning: Asset '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-14.59.13:556][  0]LogLinker:Warning: Asset '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-14.59.13:556][  0]LogLinker:Warning: Asset '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-14.59.13:557][  0]LogLinker:Warning: Asset '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-14.59.13:558][  0]LogLinker:Warning: Asset '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-14.59.13:598][  0]LogLinker:Warning: Asset '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-14.59.13:669][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-14.59.13:682][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-14.59.13:682][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-14.59.13:685][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-14.59.13:690][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-14.59.13:693][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-14.59.13:927][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2016.01.15-14.59.14:080][  0]SourceControl: Info Source control is disabled
+[2016.01.15-14.59.14:081][  0]SourceControl: Info Source control is disabled
+[2016.01.15-14.59.14:093][  0]SourceControl: Info Source control is disabled
+[2016.01.15-14.59.14:122][  0]SourceControl: Info Source control is disabled
+[2016.01.15-14.59.14:315][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-14.59.14:401][  0]LogObj: 35574 objects as part of root set at end of initial load.
+[2016.01.15-14.59.14:401][  0]LogUObjectAllocator: 8616472 out of 0 bytes used by permanent object pool.
+[2016.01.15-14.59.14:450][  0]LogEngine: Initializing Engine...
+[2016.01.15-14.59.14:452][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.15-14.59.14:453][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.15-14.59.14:559][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.15-14.59.14:570][  0]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-14.59.14:593][  0]LogInit: FAudioDevice initialized.
+[2016.01.15-14.59.14:613][  0]LogDerivedDataCache: Saved boot cache 0.02s 45MB C:/Users/Niclas/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.15-14.59.14:616][  0]LogInit: Texture streaming: Enabled
+[2016.01.15-14.59.14:622][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.15-14.59.14:622][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.15-14.59.14:622][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8d5f2d8b4e520712a8f1e688fed765ab|99f216c1865e471987722078da7bde5f|50f43dcd-c54f-4aa6-a5c1-e948023fc359
+[2016.01.15-14.59.14:622][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.15-14.59.14:631][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.15-14.59.14:649][  0]LogInit: Transaction tracking system initialized
+[2016.01.15-14.59.14:677][  0]BlueprintLog: New page: Editor Load
+[2016.01.15-14.59.14:867][  0]LocalizationService: Info Localization service is disabled
+[2016.01.15-14.59.14:943][  0]LogConsoleResponse:Display: 
+[2016.01.15-14.59.15:042][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.15-14.59.15:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/' took 0.02s
+[2016.01.15-14.59.15:098][  0]SourceControl: Info Source control is disabled
+[2016.01.15-14.59.15:098][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.15-14.59.15:099][  0]LightingResults: New page: Lighting Build
+[2016.01.15-14.59.15:102][  0]MapCheck: New page: Map Check
+[2016.01.15-14.59.15:102][  0]LightingResults: New page: Lighting Build
+[2016.01.15-14.59.15:113][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210BE5CA160
+[2016.01.15-14.59.15:325][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-14.59.15:510][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-14.59.15:522][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.15-14.59.15:523][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.15-14.59.15:602][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.332ms to complete.
+[2016.01.15-14.59.15:602][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.503
+[2016.01.15-14.59.15:692][  0]LogCollectionManager: Loaded 0 collections in 0.002118 seconds
+[2016.01.15-14.59.15:733][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/Collections/' took 0.01s
+[2016.01.15-14.59.15:733][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Developers/Niclas/Collections/' took 0.01s
+[2016.01.15-14.59.15:733][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/Collections/' took 0.01s
+[2016.01.15-14.59.15:733][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 1873 classes and 335 folders.
+[2016.01.15-14.59.15:738][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.15-14.59.15:745][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2016.01.15-14.59.15:792][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2016.01.15-14.59.15:797][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2016.01.15-14.59.15:816][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.15-14.59.15:820][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.15-14.59.15:842][  0]LogLoad: Full Startup: 6.49 seconds (BP compile: 0.13 seconds)
+[2016.01.15-14.59.15:909][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.15-14.59.16:019][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.01.15-14.59.16:483][  4]LogAssetRegistry: Asset discovery search completed in 2.5673 seconds
+[2016.01.15-14.59.16:483][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.15-14.59.16:483][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2016.01.15-14.59.54:371][486]Cmd: SELECT NONE
+[2016.01.15-15.00.56:363][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.00.56:363][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-15.00.56:363][952]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 5:00:56 PM)
+[2016.01.15-15.00.56:363][952]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-15.00.56:366][952]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-15.00.56:408][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044524s)
+[2016.01.15-15.00.56:409][952]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-15.00.56:409][952]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2016.01.15-15.00.56:409][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045691s)
+[2016.01.15-15.00.56:409][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.00.56:409][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.00.56:435][952]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-15.00.56:449][952]LogInit: FAudioDevice initialized.
+[2016.01.15-15.00.56:495][952]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2016.01.15-15.00.56:517][952]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-15.00.56:517][952]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.15-16.00.56
+[2016.01.15-15.00.56:517][952]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.00.56:517][952]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.00.56:520][952]LogWorld: Bringing up level for play took: 0.023596
+[2016.01.15-15.00.56:522][952]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.6
+[2016.01.15-15.00.56:523][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.01.10:910][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.01.10:945][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.01.10:958][835]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210D3E29B20
+[2016.01.15-15.04.55:019][865]LogMetaData: Removing '/Game/AI/AIGuard.AIGuard:UserConstructionScript.K2Node_FunctionEntry_103' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.04.55:019][865]LogMetaData: Removing '/Game/AI/AIGuard.SKEL_AIGuard_C' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.04.55:019][865]LogMetaData: Removing '/Game/AI/AIGuard.AIGuard_C' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.04.55:019][865]LogMetaData: Removing '/Game/AI/AIGuard.AIGuard:EventGraph.K2Node_Event_22' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.04.55:019][865]LogMetaData: Removing '/Game/AI/AIGuard.AIGuard:EventGraph.K2Node_Event_23' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.04.55:019][865]LogMetaData: Removing '/Game/AI/AIGuard.AIGuard:EventGraph.K2Node_Event_24' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.04.55:054][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIGuard" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIGuard.uasset" SILENT=true
+[2016.01.15-15.04.55:070][865]LogSavePackage: Save=15.141095ms
+[2016.01.15-15.04.55:070][865]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/AIGuard4F8BB31C441EFA8F9AF977B2EF64C39D.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIGuard.uasset'
+[2016.01.15-15.04.55:072][865]LogSavePackage: Total save time: 17.327733ms
+[2016.01.15-15.04.55:072][865]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIGuard.uasset
+[2016.01.15-15.05.31:238][687]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.05.31:238][687]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.05.31:249][687]LogMetaData: Removing '/Game/AI/EnemyController.EnemyController:EventGraph.K2Node_Event_26' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.05.31:249][687]LogMetaData: Removing '/Game/AI/EnemyController.EnemyController:EventGraph.K2Node_Event_25' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.05.31:249][687]LogMetaData: Removing '/Game/AI/EnemyController.EnemyController_C' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.05.31:249][687]LogMetaData: Removing '/Game/AI/EnemyController.SKEL_EnemyController_C' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.05.31:249][687]LogMetaData: Removing '/Game/AI/EnemyController.EnemyController:UserConstructionScript.K2Node_FunctionEntry_104' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2016.01.15-15.05.31:272][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyController" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyController.uasset" SILENT=true
+[2016.01.15-15.05.31:281][687]LogSavePackage: Save=8.392788ms
+[2016.01.15-15.05.31:281][687]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/EnemyController6DA84D39481C53319D70F084AB80F408.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyController.uasset'
+[2016.01.15-15.05.31:283][687]LogSavePackage: Total save time: 10.467805ms
+[2016.01.15-15.05.31:283][687]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyController.uasset
+[2016.01.15-15.05.40:854][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.05.40:854][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.05.40:865][746]LogMetaData: Removing '/Game/AI/AIEnemy.AIEnemy_C' ref from Metadata '/Game/AI/AIGuard.PackageMetaData'
+[2016.01.15-15.05.40:865][746]LogMetaData: Removing '/Game/AI/AIEnemy.SKEL_AIEnemy_C' ref from Metadata '/Game/AI/AIGuard.PackageMetaData'
+[2016.01.15-15.05.40:865][746]LogMetaData: Removing '/Game/AI/AIEnemy.AIEnemy:UserConstructionScript.K2Node_FunctionEntry_103' ref from Metadata '/Game/AI/AIGuard.PackageMetaData'
+[2016.01.15-15.05.40:865][746]LogMetaData: Removing '/Game/AI/AIEnemy.AIEnemy:EventGraph.K2Node_Event_22' ref from Metadata '/Game/AI/AIGuard.PackageMetaData'
+[2016.01.15-15.05.40:865][746]LogMetaData: Removing '/Game/AI/AIEnemy.AIEnemy:EventGraph.K2Node_Event_23' ref from Metadata '/Game/AI/AIGuard.PackageMetaData'
+[2016.01.15-15.05.40:865][746]LogMetaData: Removing '/Game/AI/AIEnemy.AIEnemy:EventGraph.K2Node_Event_24' ref from Metadata '/Game/AI/AIGuard.PackageMetaData'
+[2016.01.15-15.05.40:888][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIEnemy" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIEnemy.uasset" SILENT=true
+[2016.01.15-15.05.40:904][746]LogSavePackage: Save=14.911358ms
+[2016.01.15-15.05.40:904][746]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/AIEnemy3BA20E52485D521FEACEAFA2174E6D6E.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIEnemy.uasset'
+[2016.01.15-15.05.40:906][746]LogSavePackage: Total save time: 16.908418ms
+[2016.01.15-15.05.40:906][746]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIEnemy.uasset
+[2016.01.15-15.06.29:126][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.06.29:126][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.06.29:137][234]LogMetaData: Removing '/Game/AI/PatrolPoint.PatrolPoint:UserConstructionScript.K2Node_FunctionEntry_105' ref from Metadata '/Game/AI/ControlPoint.PackageMetaData'
+[2016.01.15-15.06.29:137][234]LogMetaData: Removing '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C' ref from Metadata '/Game/AI/ControlPoint.PackageMetaData'
+[2016.01.15-15.06.29:137][234]LogMetaData: Removing '/Game/AI/PatrolPoint.PatrolPoint_C' ref from Metadata '/Game/AI/ControlPoint.PackageMetaData'
+[2016.01.15-15.06.29:137][234]LogMetaData: Removing '/Game/AI/PatrolPoint.PatrolPoint:EventGraph.K2Node_Event_27' ref from Metadata '/Game/AI/ControlPoint.PackageMetaData'
+[2016.01.15-15.06.29:137][234]LogMetaData: Removing '/Game/AI/PatrolPoint.PatrolPoint:EventGraph.K2Node_Event_28' ref from Metadata '/Game/AI/ControlPoint.PackageMetaData'
+[2016.01.15-15.06.29:137][234]LogMetaData: Removing '/Game/AI/PatrolPoint.PatrolPoint:EventGraph.K2Node_Event_29' ref from Metadata '/Game/AI/ControlPoint.PackageMetaData'
+[2016.01.15-15.06.29:173][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PatrolPoint.uasset" SILENT=true
+[2016.01.15-15.06.29:184][234]LogSavePackage: Save=9.023236ms
+[2016.01.15-15.06.29:184][234]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/PatrolPoint7763CBF945FF46DCB53DCBABA7E724E1.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PatrolPoint.uasset'
+[2016.01.15-15.06.29:185][234]LogSavePackage: Total save time: 11.038899ms
+[2016.01.15-15.06.29:185][234]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PatrolPoint.uasset
+[2016.01.15-15.07.09:449][897]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.15-15.07.09:939][897]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 107 classes and 0 folders.
+[2016.01.15-15.07.10:464][897]LogRenderer: Reallocating scene render targets to support 1208x900 (Frame:22495).
+[2016.01.15-15.07.22:862][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.07.22:862][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.07.35:376][768]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.15-15.07.38:614][944]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.15-15.08.18:206][412]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.15-15.08.20:914][573]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.15-15.09.15:951][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.01.15-15.09.24:707][621]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.01.15-15.10.02:282][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.01.15-15.10.18:051][869]BlueprintLog: New page: Compile AIEnemy
+[2016.01.15-15.10.18:150][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.01.15-15.10.18:177][869]BlueprintEditorCompileResults: Info [0668.82] Compile of AIEnemy successful! [in 125 ms]
+[2016.01.15-15.10.19:172][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIEnemy" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIEnemy.uasset" SILENT=true
+[2016.01.15-15.10.19:206][924]LogSavePackage: Save=21.772762ms
+[2016.01.15-15.10.19:206][924]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/AIEnemyBFAF9D144D3C74F6203465A14D14269E.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIEnemy.uasset'
+[2016.01.15-15.10.19:207][924]LogSavePackage: Total save time: 34.232017ms
+[2016.01.15-15.10.19:207][924]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIEnemy.uasset
+[2016.01.15-15.11.26:049][453]BlueprintLog: New page: Compile EnemyController
+[2016.01.15-15.11.26:089][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.11.26:112][453]BlueprintEditorCompileResults: Info [0736.76] Compile of EnemyController successful! [in 63 ms]
+[2016.01.15-15.11.26:672][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyController" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyController.uasset" SILENT=true
+[2016.01.15-15.11.26:688][501]LogSavePackage: Save=9.129246ms
+[2016.01.15-15.11.26:688][501]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/EnemyController51B411FB4F8045A7790DA8BE448490F0.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyController.uasset'
+[2016.01.15-15.11.26:691][501]LogSavePackage: Total save time: 18.099330ms
+[2016.01.15-15.11.26:691][501]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyController.uasset
+[2016.01.15-15.12.13:936][817]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C'
+[2016.01.15-15.12.16:311][960]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C'
+[2016.01.15-15.12.36:826][688]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C'
+[2016.01.15-15.12.36:829][688]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C'
+[2016.01.15-15.12.36:833][688]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C'
+[2016.01.15-15.12.36:854][688]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C'
+[2016.01.15-15.12.40:327][899]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C'
+[2016.01.15-15.12.40:343][899]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C'
+[2016.01.15-15.12.50:673][104]BlueprintLog: New page: Compile PatrolPoint
+[2016.01.15-15.12.50:713][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.12.50:737][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210C9591940
+[2016.01.15-15.12.50:737][104]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C'
+[2016.01.15-15.12.50:738][104]BlueprintEditorCompileResults: Info [0821.38] Compile of PatrolPoint successful! [in 64 ms]
+[2016.01.15-15.12.50:753][104]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.SKEL_PatrolPoint_C'
+[2016.01.15-15.12.51:262][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PatrolPoint" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PatrolPoint.uasset" SILENT=true
+[2016.01.15-15.12.51:278][135]LogSavePackage: Save=7.853585ms
+[2016.01.15-15.12.51:278][135]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/PatrolPoint243732364039F2FF87DDA8881070376B.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PatrolPoint.uasset'
+[2016.01.15-15.12.51:280][135]LogSavePackage: Total save time: 16.784690ms
+[2016.01.15-15.12.51:280][135]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PatrolPoint.uasset
+[2016.01.15-15.13.10:660][781]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.15-15.13.56:226][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyBlackBoard" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBlackBoard.uasset" SILENT=true
+[2016.01.15-15.13.56:229][517]LogSavePackage: Save=1.334424ms
+[2016.01.15-15.13.56:229][517]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/EnemyBlackBoard4E1B60774663D47B107DCB9B44535236.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBlackBoard.uasset'
+[2016.01.15-15.13.56:231][517]LogSavePackage: Total save time: 3.230199ms
+[2016.01.15-15.13.56:231][517]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBlackBoard.uasset
+[2016.01.15-15.14.18:076][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.14.18:097][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.021
+[2016.01.15-15.14.18:105][877]LogSavePackage: Save=1.278024ms
+[2016.01.15-15.14.18:105][877]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/NewBlueprint_Auto16B745F0F4E30DD9EB08F7FA1DC648F5D.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/Autosaves/Game/AI/NewBlueprint_Auto1.uasset'
+[2016.01.15-15.14.18:106][877]LogSavePackage: Total save time: 2.507325ms
+[2016.01.15-15.14.18:106][877]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/Autosaves/Game/AI/NewBlueprint_Auto1.uasset
+[2016.01.15-15.14.18:112][877]LogSavePackage: Save=1.101144ms
+[2016.01.15-15.14.18:112][877]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/ControlPoint_Auto1B23416E44AD0E1A69E4A16B2BED1C2A5.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/Autosaves/Game/AI/ControlPoint_Auto1.uasset'
+[2016.01.15-15.14.18:113][877]LogSavePackage: Total save time: 2.103657ms
+[2016.01.15-15.14.18:113][877]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/Autosaves/Game/AI/ControlPoint_Auto1.uasset
+[2016.01.15-15.14.18:117][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/EnemyBT] ([1] browsable assets)...
+[2016.01.15-15.14.18:117][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/EnemyBT]
+[2016.01.15-15.14.18:120][877]LogSavePackage: Save=1.764369ms
+[2016.01.15-15.14.18:120][877]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/EnemyBT_Auto11676CE2A45169893B91F80AA96BBC250.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/Autosaves/Game/AI/EnemyBT_Auto1.uasset'
+[2016.01.15-15.14.18:121][877]LogSavePackage: Total save time: 3.084030ms
+[2016.01.15-15.14.18:121][877]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/Autosaves/Game/AI/EnemyBT_Auto1.uasset
+[2016.01.15-15.14.18:121][877]LogFileHelpers: Auto-saving content packages took 0.023
+[2016.01.15-15.15.13:591][883]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTTask_BlueprintBase_New.
+[2016.01.15-15.15.34:197][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.15.34:214][ 92]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210FD39FD80
+[2016.01.15-15.15.34:219][ 92]LogMetaData: Removing '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2016.01.15-15.15.34:219][ 92]LogMetaData: Removing '/Game/AI/PickPatrolPoint.PickPatrolPoint_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2016.01.15-15.15.34:247][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PickPatrolPoint" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset" SILENT=true
+[2016.01.15-15.15.34:251][ 92]LogSavePackage: Save=2.218824ms
+[2016.01.15-15.15.34:251][ 92]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/PickPatrolPoint3A704C054097E2364590D59B5617A66D.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset'
+[2016.01.15-15.15.34:252][ 92]LogSavePackage: Total save time: 4.246004ms
+[2016.01.15-15.15.34:252][ 92]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset
+[2016.01.15-15.15.34:388][ 96]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/PickPatrolPoint.
+[2016.01.15-15.17.21:442][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyBT" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset" SILENT=true
+[2016.01.15-15.17.21:447][102]LogSavePackage: Save=3.726584ms
+[2016.01.15-15.17.21:447][102]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/EnemyBT84FFDACA4BBA5E8EEAEB63BD097F1E68.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset'
+[2016.01.15-15.17.21:450][102]LogSavePackage: Total save time: 6.398976ms
+[2016.01.15-15.17.21:450][102]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset
+[2016.01.15-15.18.00:102][409]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.18.09:846][255]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.18.09:848][255]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.18.09:850][255]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.18.09:864][255]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.18.18:275][998]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.18.29:114][704]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.18.38:085][989]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.18.38:098][989]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.20.44:212][289]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.20.57:183][424]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.20.57:876][483]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.20.58:965][576]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.21.49:862][ 46]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.15-15.23.46:906][268]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.24.45:759][384]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.25.54:735][391]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.PatrolPoint_C'
+[2016.01.15-15.26.22:790][833]BlueprintLog: New page: Compile PickPatrolPoint
+[2016.01.15-15.26.22:839][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.26.22:839][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.26.22:839][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.01.15-15.26.22:858][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210B23740E0
+[2016.01.15-15.26.22:859][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210D9B62480
+[2016.01.15-15.26.22:866][833]BlueprintEditorCompileResults: Info [1633.51] Compile of PickPatrolPoint successful! [in 75 ms]
+[2016.01.15-15.26.23:578][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PickPatrolPoint" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset" SILENT=true
+[2016.01.15-15.26.23:609][894]LogSavePackage: Save=23.561640ms
+[2016.01.15-15.26.23:609][894]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/PickPatrolPoint6B980CEA4C50BD1C197B24B09A68167B.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset'
+[2016.01.15-15.26.23:612][894]LogSavePackage: Total save time: 32.742858ms
+[2016.01.15-15.26.23:612][894]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset
+[2016.01.15-15.26.31:537][600]LogEditorViewport: Clicking on Actor (LMB): basicai_C (basicai5)
+[2016.01.15-15.26.33:119][742]Cmd: DELETE
+[2016.01.15-15.26.33:119][742]Cmd: ACTOR DELETE
+[2016.01.15-15.26.35:292][742]LogEditorActor: Deleted Actor: basicai_C
+[2016.01.15-15.26.35:310][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210D9B60220
+[2016.01.15-15.26.35:314][742]LogEditorActor: Deleted 1 Actors (2.195 secs)
+[2016.01.15-15.27.02:299][280]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2016.01.15-15.27.07:772][832]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2016.01.15-15.27.11:585][214]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint3)
+[2016.01.15-15.27.14:880][545]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint4)
+[2016.01.15-15.27.16:129][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.27.16:129][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-15.27.16:130][668]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 5:27:16 PM)
+[2016.01.15-15.27.16:130][668]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-15.27.16:132][668]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-15.27.16:170][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039759s)
+[2016.01.15-15.27.16:170][668]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-15.27.16:171][668]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2016.01.15-15.27.16:171][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.040767s)
+[2016.01.15-15.27.16:171][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.27.16:171][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.01.15-15.27.16:171][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.27.16:203][668]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-15.27.16:218][668]LogInit: FAudioDevice initialized.
+[2016.01.15-15.27.16:251][668]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2016.01.15-15.27.16:273][668]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-15.27.16:273][668]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.15-16.27.16
+[2016.01.15-15.27.16:273][668]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.27.16:273][668]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.27.16:276][668]LogWorld: Bringing up level for play took: 0.023887
+[2016.01.15-15.27.16:279][668]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.844
+[2016.01.15-15.27.16:279][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.27.33:207][621]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.27.33:242][621]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.27.33:264][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002109D7C2020
+[2016.01.15-15.27.38:455][116]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint4)
+[2016.01.15-15.27.41:626][438]Cmd: DELETE
+[2016.01.15-15.27.41:626][438]Cmd: ACTOR DELETE
+[2016.01.15-15.27.43:430][438]LogEditorActor: Deleted Actor: PatrolPoint_C
+[2016.01.15-15.27.43:451][438]LogEditorActor: Deleted 1 Actors (1.825 secs)
+[2016.01.15-15.27.44:230][519]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2016.01.15-15.27.44:468][541]Cmd: DELETE
+[2016.01.15-15.27.44:468][541]Cmd: ACTOR DELETE
+[2016.01.15-15.27.46:029][541]LogEditorActor: Deleted Actor: PatrolPoint_C
+[2016.01.15-15.27.46:050][541]LogEditorActor: Deleted 1 Actors (1.582 secs)
+[2016.01.15-15.27.46:674][606]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint3)
+[2016.01.15-15.27.47:007][636]Cmd: DELETE
+[2016.01.15-15.27.47:007][636]Cmd: ACTOR DELETE
+[2016.01.15-15.27.47:008][636]LogEditorActor: Deleted Actor: PatrolPoint_C
+[2016.01.15-15.27.47:029][636]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.01.15-15.27.48:023][739]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2016.01.15-15.27.48:379][773]Cmd: DELETE
+[2016.01.15-15.27.48:379][773]Cmd: ACTOR DELETE
+[2016.01.15-15.27.48:380][773]LogEditorActor: Deleted Actor: PatrolPoint_C
+[2016.01.15-15.27.48:401][773]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.01.15-15.27.58:365][665]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2016.01.15-15.28.02:649][ 95]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2016.01.15-15.28.10:351][813]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.01.15-15.28.13:441][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.28.13:441][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-15.28.13:441][995]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 5:28:13 PM)
+[2016.01.15-15.28.13:441][995]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-15.28.13:444][995]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-15.28.13:480][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038289s)
+[2016.01.15-15.28.13:480][995]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-15.28.13:480][995]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2016.01.15-15.28.13:481][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039166s)
+[2016.01.15-15.28.13:481][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.28.13:481][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.01.15-15.28.13:481][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.28.13:537][995]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-15.28.13:552][995]LogInit: FAudioDevice initialized.
+[2016.01.15-15.28.13:584][995]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2016.01.15-15.28.13:606][995]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-15.28.13:606][995]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.15-16.28.13
+[2016.01.15-15.28.13:606][995]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.28.13:606][995]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.28.13:608][995]LogWorld: Bringing up level for play took: 0.023793
+[2016.01.15-15.28.13:611][995]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.488
+[2016.01.15-15.28.13:611][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.28.15:731][244]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.28.15:851][244]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.28.15:873][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210975F9C60
+[2016.01.15-15.28.45:680][214]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.PatrolPoint_C'
+[2016.01.15-15.29.07:675][678]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.29.21:827][616]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.29.22:680][671]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.29.27:819][ 15]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.29.47:890][346]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.29.53:191][586]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.29.59:258][988]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.04:005][304]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.04:027][304]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.04:712][351]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.08:532][604]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.09:339][656]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.16:534][136]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.17:353][191]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.17:974][231]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.22:764][551]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.23:822][622]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.24:588][671]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.55:461][723]BlueprintLog: New page: Compile PickPatrolPoint
+[2016.01.15-15.30.55:507][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.30.55:530][723]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.55:532][723]BlueprintEditorCompileResults: Info [1906.18] Compile of PickPatrolPoint successful! [in 71 ms]
+[2016.01.15-15.30.55:548][723]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.30.56:410][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PickPatrolPoint" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset" SILENT=true
+[2016.01.15-15.30.56:440][781]LogSavePackage: Save=23.555439ms
+[2016.01.15-15.30.56:440][781]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/PickPatrolPoint46654A0449EC422AB2B2D0B2654FB76A.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset'
+[2016.01.15-15.30.56:442][781]LogSavePackage: Total save time: 31.835426ms
+[2016.01.15-15.30.56:442][781]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset
+[2016.01.15-15.30.59:417][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.30.59:418][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-15.30.59:418][987]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 5:30:59 PM)
+[2016.01.15-15.30.59:418][987]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-15.30.59:420][987]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-15.30.59:456][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038561s)
+[2016.01.15-15.30.59:457][987]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-15.30.59:457][987]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2016.01.15-15.30.59:457][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039496s)
+[2016.01.15-15.30.59:481][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210F1543A60
+[2016.01.15-15.30.59:513][987]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-15.30.59:528][987]LogInit: FAudioDevice initialized.
+[2016.01.15-15.30.59:558][987]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2016.01.15-15.30.59:580][987]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-15.30.59:580][987]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.15-16.30.59
+[2016.01.15-15.30.59:580][987]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.30.59:581][987]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.30.59:583][987]LogWorld: Bringing up level for play took: 0.023827
+[2016.01.15-15.30.59:586][987]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.463
+[2016.01.15-15.30.59:586][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.01:500][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.01:619][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.01:641][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210FCE304A0
+[2016.01.15-15.31.08:369][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.08:370][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-15.31.08:370][692]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 5:31:08 PM)
+[2016.01.15-15.31.08:370][692]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-15.31.08:372][692]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-15.31.08:409][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038932s)
+[2016.01.15-15.31.08:409][692]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-15.31.08:409][692]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2016.01.15-15.31.08:409][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039861s)
+[2016.01.15-15.31.08:463][692]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-15.31.08:477][692]LogInit: FAudioDevice initialized.
+[2016.01.15-15.31.08:509][692]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2016.01.15-15.31.08:532][692]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-15.31.08:532][692]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.15-16.31.08
+[2016.01.15-15.31.08:532][692]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.31.08:532][692]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.31.08:534][692]LogWorld: Bringing up level for play took: 0.024262
+[2016.01.15-15.31.08:537][692]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.586
+[2016.01.15-15.31.08:537][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.10:652][941]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.10:774][941]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.10:812][941]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002110E266980
+[2016.01.15-15.31.26:467][936]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.26:469][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-15.31.26:469][936]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 5:31:26 PM)
+[2016.01.15-15.31.26:469][936]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-15.31.26:471][936]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-15.31.26:506][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036963s)
+[2016.01.15-15.31.26:506][936]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-15.31.26:506][936]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2016.01.15-15.31.26:507][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037794s)
+[2016.01.15-15.31.26:507][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.31.26:564][936]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-15.31.26:579][936]LogInit: FAudioDevice initialized.
+[2016.01.15-15.31.26:611][936]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2016.01.15-15.31.26:633][936]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-15.31.26:633][936]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.15-16.31.26
+[2016.01.15-15.31.26:634][936]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.31.26:634][936]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.31.26:636][936]LogWorld: Bringing up level for play took: 0.023662
+[2016.01.15-15.31.26:639][936]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.484
+[2016.01.15-15.31.26:639][936]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.36:837][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.36:959][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.31.36:998][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210FCDACC20
+[2016.01.15-15.32.49:079][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.32.49:102][150]LogMetaData: Removing '/Game/AI/fff.fff_C' ref from Metadata '/Game/AI/PickPatrolPoint.PackageMetaData'
+[2016.01.15-15.32.49:102][150]LogMetaData: Removing '/Game/AI/fff.SKEL_fff_C' ref from Metadata '/Game/AI/PickPatrolPoint.PackageMetaData'
+[2016.01.15-15.32.49:139][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/fff" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/fff.uasset" SILENT=true
+[2016.01.15-15.32.49:169][150]LogSavePackage: Save=28.792147ms
+[2016.01.15-15.32.49:169][150]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/fffED49E5194BE387836706089F2592821C.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/fff.uasset'
+[2016.01.15-15.32.49:171][150]LogSavePackage: Total save time: 31.355280ms
+[2016.01.15-15.32.49:171][150]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/fff.uasset
+[2016.01.15-15.32.49:297][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210B88780E0
+[2016.01.15-15.32.49:298][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210C9C353A0
+[2016.01.15-15.32.49:371][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyBT" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset" SILENT=true
+[2016.01.15-15.32.49:380][150]LogSavePackage: Save=2.420213ms
+[2016.01.15-15.32.49:380][150]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/EnemyBT9A1B5AF2474C487301B0168B61746875.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset'
+[2016.01.15-15.32.49:382][150]LogSavePackage: Total save time: 10.044947ms
+[2016.01.15-15.32.49:382][150]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset
+[2016.01.15-15.32.49:480][154]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/fff.
+[2016.01.15-15.32.50:954][225]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.32.50:954][225]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.32.50:954][225]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.01.15-15.32.56:857][581]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.15-15.33.04:683][510]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.15-15.33.04:896][510]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTTask_BlueprintBase_New.
+[2016.01.15-15.33.10:241][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.33.10:241][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.33.10:241][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.01.15-15.33.10:265][804]LogMetaData: Removing '/Game/AI/PickPatrolPoint.PickPatrolPoint_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2016.01.15-15.33.10:265][804]LogMetaData: Removing '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2016.01.15-15.33.10:306][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PickPatrolPoint" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset" SILENT=true
+[2016.01.15-15.33.10:309][804]LogSavePackage: Save=1.901090ms
+[2016.01.15-15.33.10:309][804]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/PickPatrolPointE060E9E5420A3179E57217B557D02927.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset'
+[2016.01.15-15.33.10:311][804]LogSavePackage: Total save time: 4.507333ms
+[2016.01.15-15.33.10:311][804]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset
+[2016.01.15-15.33.10:424][805]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/PickPatrolPoint.
+[2016.01.15-15.33.34:940][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyBT" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset" SILENT=true
+[2016.01.15-15.33.34:949][594]LogSavePackage: Save=2.637252ms
+[2016.01.15-15.33.34:949][594]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/EnemyBT0D1986C445F5E5628CCA488F575A880A.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset'
+[2016.01.15-15.33.34:952][594]LogSavePackage: Total save time: 11.216667ms
+[2016.01.15-15.33.34:952][594]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset
+[2016.01.15-15.33.38:225][833]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.33.38:225][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-15.33.38:225][833]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 5:33:38 PM)
+[2016.01.15-15.33.38:225][833]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-15.33.38:228][833]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-15.33.38:258][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033292s)
+[2016.01.15-15.33.38:259][833]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-15.33.38:259][833]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2016.01.15-15.33.38:259][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034110s)
+[2016.01.15-15.33.38:259][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.33.38:259][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.33.38:259][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.01.15-15.33.38:282][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210FCEE8540
+[2016.01.15-15.33.38:314][833]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-15.33.38:328][833]LogInit: FAudioDevice initialized.
+[2016.01.15-15.33.38:360][833]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2016.01.15-15.33.38:382][833]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-15.33.38:382][833]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.15-16.33.38
+[2016.01.15-15.33.38:382][833]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.33.38:382][833]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.33.38:384][833]LogWorld: Bringing up level for play took: 0.023989
+[2016.01.15-15.33.38:387][833]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.736
+[2016.01.15-15.33.38:387][833]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.33.44:420][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.33.44:535][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.33.44:559][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210DC1545E0
+[2016.01.15-15.34.34:915][ 68]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.34.39:548][399]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.34.46:035][826]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.34.46:037][826]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.34.46:039][826]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.34.46:055][826]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.34.47:182][909]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.34.47:197][909]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.34.59:560][784]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.35.23:084][334]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.35.23:841][384]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.35.24:492][426]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.35.48:739][ 23]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.15-15.36.30:209][768]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.36.38:414][313]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PatrolPoint.PatrolPoint_C'
+[2016.01.15-15.37.18:801][976]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'PickPatrolPoint', cached variable property's owner is '/Game/AI/PickPatrolPoint.SKEL_PickPatrolPoint_C'
+[2016.01.15-15.37.51:562][136]BlueprintLog: New page: Compile PickPatrolPoint
+[2016.01.15-15.37.51:609][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.37.51:629][136]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002111F1D5300
+[2016.01.15-15.37.51:634][136]BlueprintEditorCompileResults: Info [2322.28] Compile of PickPatrolPoint successful! [in 71 ms]
+[2016.01.15-15.37.54:238][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/PickPatrolPoint" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset" SILENT=true
+[2016.01.15-15.37.54:270][308]LogSavePackage: Save=22.965740ms
+[2016.01.15-15.37.54:270][308]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/PickPatrolPoint125795DA447D89063A8E0CA59B30685B.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset'
+[2016.01.15-15.37.54:272][308]LogSavePackage: Total save time: 33.083919ms
+[2016.01.15-15.37.54:272][308]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/PickPatrolPoint.uasset
+[2016.01.15-15.37.57:556][530]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.37.57:556][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-15.37.57:557][530]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 5:37:57 PM)
+[2016.01.15-15.37.57:557][530]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-15.37.57:559][530]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-15.37.57:596][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039122s)
+[2016.01.15-15.37.57:597][530]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-15.37.57:597][530]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2016.01.15-15.37.57:597][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.040098s)
+[2016.01.15-15.37.57:616][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021127C72F20
+[2016.01.15-15.37.57:653][530]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-15.37.57:668][530]LogInit: FAudioDevice initialized.
+[2016.01.15-15.37.57:700][530]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2016.01.15-15.37.57:722][530]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-15.37.57:722][530]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.15-16.37.57
+[2016.01.15-15.37.57:722][530]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.37.57:722][530]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.37.57:725][530]LogWorld: Bringing up level for play took: 0.023863
+[2016.01.15-15.37.57:727][530]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.604
+[2016.01.15-15.37.57:727][530]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.37.59:424][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.37.59:544][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.37.59:586][729]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002111EA93880
+[2016.01.15-15.38.03:926][ 31]LogEditorViewport: Clicking on Actor (LMB): AIEnemy_C (AIEnemy)
+[2016.01.15-15.38.04:728][ 99]Cmd: DELETE
+[2016.01.15-15.38.04:728][ 99]Cmd: ACTOR DELETE
+[2016.01.15-15.38.04:729][ 99]LogEditorActor: Deleted Actor: AIEnemy_C
+[2016.01.15-15.38.04:750][ 99]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.01.15-15.38.05:425][171]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2016.01.15-15.38.05:737][201]Cmd: DELETE
+[2016.01.15-15.38.05:737][201]Cmd: ACTOR DELETE
+[2016.01.15-15.38.06:759][201]LogEditorActor: Deleted Actor: PatrolPoint_C
+[2016.01.15-15.38.06:780][201]LogEditorActor: Deleted 1 Actors (1.043 secs)
+[2016.01.15-15.38.07:442][272]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2016.01.15-15.38.07:746][302]Cmd: DELETE
+[2016.01.15-15.38.07:746][302]Cmd: ACTOR DELETE
+[2016.01.15-15.38.07:747][302]LogEditorActor: Deleted Actor: PatrolPoint_C
+[2016.01.15-15.38.07:768][302]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.01.15-15.38.19:215][262]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint)
+[2016.01.15-15.38.23:552][695]LogEditorViewport: Clicking on Actor (LMB): PatrolPoint_C (PatrolPoint2)
+[2016.01.15-15.38.29:011][239]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.38.29:011][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-15.38.29:012][239]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 5:38:29 PM)
+[2016.01.15-15.38.29:012][239]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-15.38.29:014][239]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-15.38.29:050][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038368s)
+[2016.01.15-15.38.29:051][239]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-15.38.29:051][239]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2016.01.15-15.38.29:051][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039282s)
+[2016.01.15-15.38.29:051][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.38.29:051][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.01.15-15.38.29:051][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.01.15-15.38.29:082][239]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-15.38.29:097][239]LogInit: FAudioDevice initialized.
+[2016.01.15-15.38.29:131][239]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2016.01.15-15.38.29:153][239]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-15.38.29:153][239]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.15-16.38.29
+[2016.01.15-15.38.29:153][239]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.38.29:153][239]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.38.29:155][239]LogWorld: Bringing up level for play took: 0.023661
+[2016.01.15-15.38.29:158][239]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.035
+[2016.01.15-15.38.29:158][239]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.38.31:411][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.38.31:447][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.38.31:468][504]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210F13BADE0
+[2016.01.15-15.39.09:550][557]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.01.15-15.39.12:859][750]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.39.14:959][874]BlueprintLog: New page: Compile AIEnemy
+[2016.01.15-15.39.15:056][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.01.15-15.39.15:075][874]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021127E3A200
+[2016.01.15-15.39.15:083][874]BlueprintEditorCompileResults: Info [2405.73] Compile of AIEnemy successful! [in 123 ms]
+[2016.01.15-15.39.16:040][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIEnemy" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIEnemy.uasset" SILENT=true
+[2016.01.15-15.39.16:068][926]LogSavePackage: Save=19.585535ms
+[2016.01.15-15.39.16:068][926]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/AIEnemyA3C31E2A4300485359F20592887CA8A4.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIEnemy.uasset'
+[2016.01.15-15.39.16:071][926]LogSavePackage: Total save time: 29.427614ms
+[2016.01.15-15.39.16:071][926]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/AIEnemy.uasset
+[2016.01.15-15.41.05:141][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EnemyBT" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset" SILENT=true
+[2016.01.15-15.41.05:153][730]LogSavePackage: Save=2.779288ms
+[2016.01.15-15.41.05:153][730]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/EnemyBT196ED0984D39372223FF9F8676D8BC1B.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset'
+[2016.01.15-15.41.05:155][730]LogSavePackage: Total save time: 12.947369ms
+[2016.01.15-15.41.05:155][730]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/EnemyBT.uasset
+[2016.01.15-15.41.07:453][945]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.41.07:453][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.15-15.41.07:453][945]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2016, 5:41:07 PM)
+[2016.01.15-15.41.07:453][945]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.15-15.41.07:456][945]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
+[2016.01.15-15.41.07:492][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038838s)
+[2016.01.15-15.41.07:493][945]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.15-15.41.07:493][945]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2016.01.15-15.41.07:493][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039775s)
+[2016.01.15-15.41.07:493][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.15-15.41.07:512][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002109D71FBA0
+[2016.01.15-15.41.07:512][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210FCEC6D40
+[2016.01.15-15.41.07:525][945]LogInit: XAudio2 using 'Högtalare (Logitech G35 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.15-15.41.07:540][945]LogInit: FAudioDevice initialized.
+[2016.01.15-15.41.07:570][945]LogWorld: Game class is 'AutomaticDoorGameMode'
+[2016.01.15-15.41.07:592][945]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.01.15-15.41.07:592][945]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.15-16.41.07
+[2016.01.15-15.41.07:592][945]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.41.07:592][945]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.15-15.41.07:594][945]LogWorld: Bringing up level for play took: 0.023768
+[2016.01.15-15.41.07:597][945]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.474
+[2016.01.15-15.41.07:597][945]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.41.18:286][207]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.41.18:325][207]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.15-15.41.18:348][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210C73A67A0
+[2016.01.15-15.41.22:916][667]LogBlueprint:Warning: [compiler FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2016.01.15-15.41.22:916][667]LogBlueprint:Warning: [compiler FirstPersonExampleMap] Warning [2533.56] Compile of FirstPersonExampleMap successful, but with 1 Warning(s) [in 3 ms]
+[2016.01.15-15.41.22:916][667]LogBlueprint:Warning: [compiler FirstPersonExampleMap] Warning [2533.56] Compile of FirstPersonExampleMap successful, but with 2 Warning(s) [in 0 ms]
+[2016.01.15-15.41.22:916][667]LogBlueprint:Warning: [compiler FirstPersonExampleMap] Warning [2533.56] Compile of FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms]
+[2016.01.15-15.41.22:951][667]LogBlueprint:Warning: [compiler FirstPersonExampleMap] Warning [2533.59] Compile of FirstPersonExampleMap successful, but with 4 Warning(s) [in 34 ms]
+[2016.01.15-15.41.22:952][667]LogBlueprint:Warning: [compiler FirstPersonExampleMap] Warning [2533.60] Compile of FirstPersonExampleMap successful, but with 5 Warning(s) [in 1 ms]
+[2016.01.15-15.41.22:952][667]LogBlueprint:Warning: [compiler FirstPersonExampleMap] Warning [2533.60] Compile of FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms]
+[2016.01.15-15.41.23:660][667]LogSavePackage: Save=748.661682ms
+[2016.01.15-15.41.23:660][667]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/FirstPersonExampleMap70465AAB4DA90941E9BA5480A8FEBC61.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2016.01.15-15.41.23:663][667]LogSavePackage: Total save time: 766.149145ms
+[2016.01.15-15.41.23:664][667]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
+[2016.01.15-15.41.26:632][968]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002110C39C2C0
+[2016.01.15-15.41.30:543][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BTTask_BlueprintBase_New" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/BTTask_BlueprintBase_New.uasset" SILENT=true
+[2016.01.15-15.41.30:545][968]LogSavePackage: Save=1.208335ms
+[2016.01.15-15.41.30:545][968]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/BTTask_BlueprintBase_New70C7A996411CE3A785CE90BD6E26B883.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/BTTask_BlueprintBase_New.uasset'
+[2016.01.15-15.41.30:547][968]LogSavePackage: Total save time: 3.598724ms
+[2016.01.15-15.41.30:547][968]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/BTTask_BlueprintBase_New.uasset
+[2016.01.15-15.41.30:555][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/ControlPoint" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/ControlPoint.uasset" SILENT=true
+[2016.01.15-15.41.30:557][968]LogSavePackage: Save=1.035884ms
+[2016.01.15-15.41.30:557][968]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/ControlPoint219201D74EF47A72EFDF6994B4BDE0A7.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/ControlPoint.uasset'
+[2016.01.15-15.41.30:559][968]LogSavePackage: Total save time: 2.934907ms
+[2016.01.15-15.41.30:559][968]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/ControlPoint.uasset
+[2016.01.15-15.41.30:564][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/NewBlueprint" FILE="../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/NewBlueprint.uasset" SILENT=true
+[2016.01.15-15.41.30:566][968]LogSavePackage: Save=1.079883ms
+[2016.01.15-15.41.30:566][968]LogSavePackage: Moving '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Saved/NewBlueprintA97D9A8449AE5B61F44B4B90717A0F96.tmp' to '../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/NewBlueprint.uasset'
+[2016.01.15-15.41.30:568][968]LogSavePackage: Total save time: 3.273312ms
+[2016.01.15-15.41.30:568][968]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Niclas/Documents/GitHub/UnrealTutorial/AutomaticDoor/Content/AI/NewBlueprint.uasset
+[2016.01.15-15.41.30:684][968]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.15-15.41.30:926][969]Cmd: QUIT_EDITOR
+[2016.01.15-15.41.31:589][969]LogExit: Preparing to exit.
+[2016.01.15-15.41.32:232][969]LogExit: Editor shut down
+[2016.01.15-15.41.32:233][969]LogExit: Transaction tracking system shut down
+[2016.01.15-15.41.32:235][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210AF507B00
+[2016.01.15-15.41.32:235][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210C96CB880
+[2016.01.15-15.41.32:235][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210C9943420
+[2016.01.15-15.41.32:236][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210C9888400
+[2016.01.15-15.41.32:238][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210C707E7A0
+[2016.01.15-15.41.32:239][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000210DC155120
+[2016.01.15-15.41.32:397][969]LogExit: Object subsystem successfully closed.
+[2016.01.15-15.41.32:404][969]LogD3D11RHI: Shutdown
+[2016.01.15-15.41.32:404][969]LogD3D11RHI: CleanupD3DDevice
+[2016.01.15-15.41.32:406][969]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.15-15.41.32:424][969]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.01.15-15.41.32:424][969]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.15-15.41.32:424][969]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.15-15.41.32:424][969]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.15-15.41.32:424][969]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.15-15.41.32:424][969]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.15-15.41.32:426][969]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.15-15.41.32:426][969]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.15-15.41.32:427][969]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.15-15.41.32:683][969]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.15-15.41.32:684][969]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.15-15.41.32:684][969]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.15-15.41.32:684][969]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.15-15.41.32:684][969]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.15-15.41.32:684][969]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.15-15.41.32:685][969]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.15-15.41.32:865][969]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.15-15.41.32:865][969]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.15-15.41.32:865][969]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.15-15.41.32:865][969]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.15-15.41.32:865][969]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.15-15.41.32:865][969]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.01.15-15.41.32:865][969]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.01.15-15.41.32:865][969]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.15-15.41.32:873][969]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.15-15.41.32:874][969]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.15-15.41.32:876][969]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.15-15.41.32:995][969]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.15-15.41.32:996][969]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.15-15.41.32:996][969]LogModuleManager: Shutting down and abandoning module AutomaticDoor (86)
+[2016.01.15-15.41.32:996][969]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.15-15.41.33:098][969]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.15-15.41.33:098][969]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.15-15.41.33:098][969]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.15-15.41.33:100][969]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.15-15.41.33:100][969]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.15-15.41.33:101][969]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.15-15.41.33:103][969]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.15-15.41.33:103][969]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.15-15.41.33:103][969]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.15-15.41.33:103][969]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.15-15.41.33:103][969]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.15-15.41.33:103][969]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.15-15.41.33:103][969]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.15-15.41.33:103][969]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.15-15.41.33:103][969]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.15-15.41.33:103][969]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.15-15.41.33:105][969]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.15-15.41.33:171][969]LogDerivedDataCache: Shutdown
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.15-15.41.33:171][969]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.15-15.41.34:173][969]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.15-15.41.34:173][969]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.15-15.41.34:173][969]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.15-15.41.34:173][969]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.15-15.41.34:173][969]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.15-15.41.34:173][969]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.15-15.41.34:176][969]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.15-15.41.34:176][969]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.15-15.41.34:176][969]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.15-15.41.34:176][969]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.15-15.41.34:176][969]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.15-15.41.34:176][969]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.15-15.41.34:176][969]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.15-15.41.34:176][969]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.15-15.41.34:176][969]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.15-15.41.34:176][969]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.15-15.41.34:177][969]LogExit: Exiting.
+[2016.01.15-15.41.34:207][969]Log file closed, 01/15/16 16:41:34
